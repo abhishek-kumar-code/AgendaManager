@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AgendaManager {
+public class AgendaManager1 {
 	/* Part 2 of the Project requirement */
 	/* Begin time to calculate performance of simplified agenda manager */
 	public static long timebegin = System.currentTimeMillis();

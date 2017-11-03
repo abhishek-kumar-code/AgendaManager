@@ -1,9 +1,3 @@
-Please enter the test file number you want to execute:
- 1 = test1.txt,
- 2 = test2.txt,
- 3 = test3.txt 
-
-Enter your choice : 3
 ########## CYCLE 1 ##########
 Executed Rule: 
 [r30, 30]
@@ -186,4 +180,4 @@ Executed Rule:
 Activated Rule after cycle: 30
 [r3, r2, r1]
 
-The RUN TIME PERFORMANCE of the simplified agenda manager is 2043 milliseconds.
+The RUN TIME PERFORMANCE of the simplified agenda manager is 40 milliseconds.

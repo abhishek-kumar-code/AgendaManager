@@ -1,189 +1,183 @@
-Please enter the test file number you want to execute:
- 1 = test1.txt,
- 2 = test2.txt,
- 3 = test3.txt 
-
-Enter your choice : 1
-########## CYCLE 1 ##########
+######### CYCLE 1 ##########
 Executed Rule: 
-[r30, 30]
+[R90, 90]
 Activated Rule after cycle: 1
-[r29, r23, r28, r27, r18, r22, r26, r20, r16, r25, r17, r14, r19, r21, r11, r4, r7, r8, r9, r1, r6, r24, r15, r10, r3, r2, r13, r5, r12]
+[R76, R80, R75, R35, R60, R260, R360, R210, R5, R20, R10]
 
 ########## CYCLE 2 ##########
 Executed Rule: 
-[r100, 100]
+[R80, 80]
 Activated Rule after cycle: 2
-[r27, r29, r23, r25, r22, r28, r20, r16, r18, r24, r14, r19, r21, r26, r4, r7, r8, r9, r1, r6, r17, r15, r10, r3, r2, r13, r5, r12, r11]
+[R76, R75, R35, R60, R260, R360, R210, R5, R20, R10, R15]
 
 ########## CYCLE 3 ##########
 Executed Rule: 
-[r35, 35]
+[R76, 76]
 Activated Rule after cycle: 3
-[r29, r28, r25, r24, r27, r26, r16, r18, r22, r15, r19, r21, r23, r20, r7, r8, r9, r1, r6, r17, r14, r10, r3, r2, r13, r5, r12, r11, r4]
+[R75, R360, R60, R260, R50, R210, R5, R20, R10, R15, R35]
 
 ########## CYCLE 4 ##########
 Executed Rule: 
-[r100, 100]
+[R75, 75]
 Activated Rule after cycle: 4
-[r28, r29, r24, r27, r26, r25, r18, r22, r17, r19, r21, r23, r20, r16, r8, r9, r1, r6, r15, r14, r10, r3, r2, r13, r5, r12, r11, r4, r7]
-
-No. of lines in the text file is 4
+[R360, R275, R260, R50, R60, R5, R20, R10, R15, R35, R210]
 
 ########## CYCLE 5 ##########
 Executed Rule: 
-[r29, 29]
+[R80, 80]
 Activated Rule after cycle: 5
-[r28, r25, r27, r26, r24, r18, r22, r17, r19, r21, r23, r20, r16, r8, r9, r1, r6, r15, r14, r10, r3, r2, r13, r5, r12, r11, r4, r7]
+[R275, R360, R50, R60, R260, R20, R10, R15, R35, R210, R5, R55]
 
 ########## CYCLE 6 ##########
 Executed Rule: 
-[r28, 28]
+[R275, 75]
 Activated Rule after cycle: 6
-[r26, r27, r25, r24, r20, r22, r17, r19, r21, r23, r18, r16, r8, r9, r1, r6, r15, r14, r10, r3, r2, r13, r5, r12, r11, r4, r7]
+[R360, R55, R60, R260, R50, R10, R15, R35, R210, R5, R20, R3]
 
 ########## CYCLE 7 ##########
 Executed Rule: 
-[r27, 27]
+[R360, 60]
 Activated Rule after cycle: 7
-[r26, r25, r24, r23, r22, r17, r19, r21, r20, r18, r16, r8, r9, r1, r6, r15, r14, r10, r3, r2, r13, r5, r12, r11, r4, r7]
+[R260, R60, R55, R50, R10, R15, R35, R210, R5, R20, R3, R310]
 
 ########## CYCLE 8 ##########
 Executed Rule: 
-[r26, 26]
+[R95, 95]
 Activated Rule after cycle: 8
-[r25, r24, r23, r22, r17, r19, r21, r20, r18, r16, r11, r9, r1, r6, r15, r14, r10, r3, r2, r13, r5, r12, r8, r4, r7]
+[R60, R260, R50, R20, R55, R35, R210, R5, R10, R3, R310, R15]
 
 ########## CYCLE 9 ##########
 Executed Rule: 
-[r25, 25]
+[R60, 60]
 Activated Rule after cycle: 9
-[r24, r23, r22, r17, r19, r21, r20, r18, r16, r12, r9, r1, r6, r15, r14, r10, r3, r2, r13, r5, r11, r8, r4, r7]
+[R260, R59, R56, R55, R50, R58, R255, R54, R3, R310, R15, R35, R210, R57, R5, R20, R10, R53]
 
 ########## CYCLE 10 ##########
 Executed Rule: 
-[r24, 24]
+[R260, 60]
 Activated Rule after cycle: 10
-[r23, r22, r18, r19, r21, r20, r17, r16, r12, r9, r7, r6, r15, r14, r10, r3, r2, r13, r5, r11, r8, r4, r1]
+[R59, R58, R55, R50, R56, R57, R54, R53, R310, R15, R35, R210, R255, R5, R20, R10, R3, R220]
 
 ########## CYCLE 11 ##########
 Executed Rule: 
-[r23, 23]
+[R60, 60]
 Activated Rule after cycle: 11
-[r22, r20, r19, r21, r18, r17, r16, r13, r11, r7, r6, r15, r14, r10, r3, r2, r12, r5, r9, r8, r4, r1]
+[R59, R57, R58, R56, R55, R54, R53, R50, R15, R35, R210, R255, R5, R20, R10, R3, R220, R310]
 
 ########## CYCLE 12 ##########
 Executed Rule: 
-[r22, 22]
+[R90, 90]
 Activated Rule after cycle: 12
-[r21, r19, r20, r18, r17, r16, r13, r11, r8, r6, r15, r14, r10, r3, r2, r12, r5, r9, r7, r4, r1]
+[R59, R58, R57, R55, R255, R53, R50, R56, R35, R210, R54, R5, R20, R10, R3, R220, R310, R15]
 
 ########## CYCLE 13 ##########
 Executed Rule: 
-[r21, 21]
+[R59, 59]
 Activated Rule after cycle: 13
-[r19, r20, r18, r17, r16, r13, r12, r9, r6, r15, r14, r10, r3, r2, r11, r5, r8, r7, r4, r1]
+[R58, R57, R56, R255, R53, R50, R55, R35, R210, R54, R5, R20, R10, R3, R220, R310, R15, R1, R2, R1]
+
+No. of lines in the text file is 13
 
 ########## CYCLE 14 ##########
 Executed Rule: 
-[r20, 20]
+[R58, 58]
 Activated Rule after cycle: 14
-[r19, r18, r17, r16, r13, r12, r9, r7, r15, r14, r10, r3, r2, r11, r5, r8, r6, r4, r1]
+[R57, R56, R255, R54, R50, R55, R35, R210, R53, R5, R20, R10, R3, R220, R310, R15, R1, R2, R1]
 
 ########## CYCLE 15 ##########
 Executed Rule: 
-[r19, 19]
+[R57, 57]
 Activated Rule after cycle: 15
-[r18, r17, r16, r14, r12, r11, r8, r15, r13, r10, r3, r2, r9, r5, r7, r6, r4, r1]
+[R56, R255, R54, R50, R55, R35, R15, R53, R5, R20, R10, R3, R220, R310, R210, R1, R2, R1]
 
 ########## CYCLE 16 ##########
 Executed Rule: 
-[r18, 18]
+[R56, 56]
 Activated Rule after cycle: 16
-[r17, r16, r15, r12, r11, r8, r14, r13, r10, r3, r2, r9, r5, r7, r6, r4, r1]
+[R255, R54, R53, R55, R35, R15, R50, R5, R20, R10, R3, R220, R310, R210, R1, R2, R1]
 
 ########## CYCLE 17 ##########
 Executed Rule: 
-[r17, 17]
+[R255, 55]
 Activated Rule after cycle: 17
-[r16, r15, r13, r11, r9, r14, r12, r10, r3, r2, r8, r5, r7, r6, r4, r1]
+[R55, R53, R54, R35, R220, R50, R5, R20, R10, R3, R15, R310, R210, R1, R2, R1]
 
 ########## CYCLE 18 ##########
 Executed Rule: 
-[r16, 16]
+[R55, 55]
 Activated Rule after cycle: 18
-[r15, r14, r11, r9, r13, r12, r10, r3, r2, r8, r5, r7, r6, r4, r1]
+[R53, R54, R35, R220, R50, R5, R20, R10, R3, R15, R310, R210, R1, R2, R1]
 
 ########## CYCLE 19 ##########
 Executed Rule: 
-[r15, 15]
+[R54, 54]
 Activated Rule after cycle: 19
-[r14, r12, r9, r13, r11, r10, r3, r2, r8, r5, r7, r6, r4, r1]
+[R53, R35, R220, R50, R210, R20, R10, R3, R15, R310, R5, R1, R2, R1]
 
 ########## CYCLE 20 ##########
 Executed Rule: 
-[r14, 14]
+[R53, 53]
 Activated Rule after cycle: 20
-[r13, r10, r12, r11, r9, r3, r2, r8, r5, r7, r6, r4, r1]
+[R50, R220, R35, R210, R20, R10, R3, R15, R310, R5, R1, R2, R1]
 
 ########## CYCLE 21 ##########
 Executed Rule: 
-[r13, 13]
+[R50, 50]
 Activated Rule after cycle: 21
-[r11, r12, r10, r9, r4, r2, r8, r5, r7, r6, r3, r1]
+[R220, R35, R15, R20, R10, R3, R210, R310, R5, R1, R2, R1]
 
 ########## CYCLE 22 ##########
 Executed Rule: 
-[r12, 12]
+[R35, 35]
 Activated Rule after cycle: 22
-[r11, r10, r9, r6, r2, r8, r5, r7, r4, r3, r1]
+[R220, R15, R20, R10, R3, R210, R310, R5, R1, R2, R1]
 
 ########## CYCLE 23 ##########
 Executed Rule: 
-[r11, 11]
+[R220, 20]
 Activated Rule after cycle: 23
-[r10, r9, r7, r3, r8, r5, r6, r4, r2, r1]
+[R15, R20, R10, R3, R210, R310, R5, R1, R2, R1]
 
 ########## CYCLE 24 ##########
 Executed Rule: 
-[r10, 10]
+[R20, 20]
 Activated Rule after cycle: 24
-[r9, r7, r4, r8, r5, r6, r3, r2, r1]
+[R15, R10, R3, R210, R310, R5, R1, R2, R1]
 
 ########## CYCLE 25 ##########
 Executed Rule: 
-[r9, 9]
+[R15, 15]
 Activated Rule after cycle: 25
-[r8, r6, r7, r5, r4, r3, r2, r1]
+[R10, R5, R210, R310, R3, R1, R2, R1]
 
 ########## CYCLE 26 ##########
 Executed Rule: 
-[r8, 8]
+[R10, 10]
 Activated Rule after cycle: 26
-[r6, r7, r5, r4, r3, r2, r1]
+[R310, R210, R5, R3, R1, R2, R1]
 
 ########## CYCLE 27 ##########
 Executed Rule: 
-[r7, 7]
+[R310, 10]
 Activated Rule after cycle: 27
-[r6, r5, r4, r3, r2, r1]
+[R210, R5, R3, R1, R2, R1]
 
 ########## CYCLE 28 ##########
 Executed Rule: 
-[r6, 6]
+[R210, 10]
 Activated Rule after cycle: 28
-[r5, r4, r3, r2, r1]
+[R5, R3, R1, R2, R1]
 
 ########## CYCLE 29 ##########
 Executed Rule: 
-[r5, 5]
+[R5, 5]
 Activated Rule after cycle: 29
-[r4, r3, r2, r1]
+[R3, R1, R2, R1]
 
 ########## CYCLE 30 ##########
 Executed Rule: 
-[r4, 4]
+[R3, 3]
 Activated Rule after cycle: 30
-[r3, r2, r1]
+[R1, R2, R1]
 
-The RUN TIME PERFORMANCE of the simplified agenda manager is 4856 milliseconds.
+The RUN TIME PERFORMANCE of the simplified agenda manager is 37 milliseconds.
