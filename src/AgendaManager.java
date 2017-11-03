@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AgendaManager1 {
+public class AgendaManager {
 	/* Part 2 of the Project requirement */
 	/* Begin time to calculate performance of simplified agenda manager */
 	public static long timebegin = System.currentTimeMillis();
@@ -66,12 +66,12 @@ public class AgendaManager1 {
 		int counter = 0; 
 		int lineNum = 0;
 		int maximum = 0;
-		//String max_name;
+		
 		ArrayList<String> list = new ArrayList<String>();
 		/* To keep a record of the priority list in the given input file */
 		ArrayList<Integer> prioritylist1 = new ArrayList<Integer>();
 		// The name of the file to open.
-        String fileName = "C:/Users/Abhishek/Desktop/AgendaManager/src/test3.txt";
+        String fileName = "C:/Users/Abhishek/Desktop/AgendaManager/src/test1.txt";
         // This will reference one line at a time
         String line = null;
         try {
@@ -84,65 +84,45 @@ public class AgendaManager1 {
                 new BufferedReader(fileReader);
             int arlist;
             int cycle = 0;
-			//while((line = bufferedReader.readLine()) != null && cycle < 30) {
-           // while(cycle < 30 && (line = bufferedReader.readLine()) != null && line.length()!=0) {
-            while (cycle < 30 && inFile.hasNext()) {
-            	//System.out.println(" LINE  "+line);
+			 while (cycle < 30 && inFile.hasNext()) {
             	line = inFile.nextLine();
             	if(line.length() == 0){
             		continue;
             	}
 				cycle++;
-            	//System.out.println(line);
-				//String[] set = line.split("\\| ");
 				String[] set = line.split("(\\)\\,) |\\)");
-				//System.out.println(line);
-				//System.out.println(Arrays.toString(set));
             	lineNum++;
             	for (String x: set){
             		String[] set2 = x.split(", ");
-            		//System.out.println(Arrays.toString(set2));
-            		//String set3 = (set2[0]);
             		String set3 = (set2[0]).substring(1);
-            		//System.out.println(set3);
             		namelist.add(set3);
-            		//int set4 = Integer.parseInt((set2[1].trim()).substring(0,((set2[1].trim()).length()) - 1));
             		int set4 = Integer.parseInt((set2[1]));
             		prioritylist1.add(set4);
-            		//System.out.println(set4);
-            		//System.out.println(set2[0]);
-    				//System.out.println(Arrays.toString(set));
             	  }
-            	
             	prioritylist1 =  buildHeap(prioritylist1);
             	System.out.println("########## CYCLE " + (counter + 1) + " ##########");
             	System.out.println("Executed Rule: ");
             	maximum = extractMax(prioritylist1);
             	prioritylist1= deleteMax(prioritylist1);
             	System.out.println(maximum +"]");
-            	//System.out.println("Maximum from cycle " + (counter + 1) + " is ------------ " + maximum);
             	System.out.println("Activated Rule after cycle: " + (counter + 1));
             	System.out.println(namelist);
-            	//System.out.println("Priority list after cycle " + (counter + 1) + " is ------" + prioritylist1);
             	System.out.println();
             		counter++;
 				}
 			System.out.println("No. of lines in the text file is " + counter);
 			System.out.println();
 			/* Cycles after all the cycles in the input file has been executed */
+			
 			while (prioritylist1.size() != 0 && counter < 30){
-				//System.out.println("COUNTER " + counter);
 				prioritylist1 =  buildHeap(prioritylist1);
 				System.out.println("########## CYCLE " + (counter + 1) + " ##########");
             	System.out.println("Executed Rule: ");
 				maximum = extractMax(prioritylist1);
 		        prioritylist1= deleteMax(prioritylist1);
 		        System.out.println(maximum +"]");
-		        //System.out.println("Maximum from cycle " + (counter + 1) + " is ------------ " + maximum);
-		        //System.out.println("Rule list after cycle " + (counter + 1) + " is ----------" + namelist);
 		        System.out.println("Activated Rule after cycle: " + (counter + 1));
             	System.out.println(namelist);
-		        //System.out.println("Priority list after cycle " + (counter + 1) + " is ------" + prioritylist1);
 		        System.out.println();
 		        	counter++;
 		        	
